@@ -1,7 +1,7 @@
 # trybe_exercises
-No curso da trybe a gente divide os exercícios do por: módulo, seção e dia.
-Cada branch está nomeada com o modulo, seção e dia daquele exercício. Exemplo: exercícios/modulo/seção01.dia01
-Sempre que terminar um exercício eu vou jogar ele aqui nesse repositório.
+No curso da trybe a gente divide os exercícios do por módulo, seção e dia.
+
+Cada branch de exercícios está nomeada com o modulo, seção e dia daquele exercício. 
 
 * modulo de fundamentos:
 - [ ] exercícios da seção01: Unix, Shell e Git :rotating_light:
