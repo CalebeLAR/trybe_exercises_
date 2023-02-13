@@ -40,4 +40,3 @@ Cada branch de exercícios está nomeada com o modulo, seção e dia daquele exe
 ## modulo de front-end em desenvolvimento :construction:
 ## modulo de ciência da computação em desenvolvimento :construction:
 
-
