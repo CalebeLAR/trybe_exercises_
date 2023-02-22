@@ -1,64 +1,61 @@
-1.	Utilizando o terminal, aplique o comando de criação de diretórios que você aprendeu: crie um diretório chamado unix_tests e navegue até ele.
+Exercícios - Manipulação e busca
+Parte I
+1.	Mostre todo o conteúdo do arquivo countries.txt na tela.
 comando:
-~ mkdir unix_tests 
-~ cd unix_tests
+~ cd unix_tests_search
+~ cat countries.txt
 
-2.	Crie um arquivo de texto com o nome trybe.txt.
+2.	Mostre o conteúdo de countries.txt, página por página, até encontrar a Zambia.
 comando:
-~ touch trybe.txt
+~ less countries.txt
+~ more countries.txt
 
-3.	Crie uma cópia do arquivo trybe.txt com o nome trybe_backup.txt.
+3.	Mostre novamente o conteúdo de countries.txt página por página, mas agora utilize um comando para buscar por Zambia.
 comando:
-~ cp trybe.txt trybe_backup.txt
+~ less countries.txt
+~ more countries.txt //usar o "/" para pesquisar a palavra
 
-4.	Renomeie o arquivo trybe.txt.
+4.	Busque por Brazil no countries.txt.
 comando:
-~ mv trybe.txt outro_nome.txt
+~ greb Brazil countries.txt
 
-5.	Dentro de unix_tests, crie um novo diretório chamado backup.
+5.	Busque novamente por brazil, mas agora utilize o lower case e não considere letras maiúsculas ou minúsculas.
 comando:
-~ mkdir backup
+~ grep -i brazil countries.txt
 
-6.	Mova o arquivo trybe_backup.txt para o diretório backup.
+
+Parte II
+6.Busque pelas frases que não contenham a palavra fox.
 comando:
-~ mv trybe_backup.txt backup
+~ touch phrases.txt
+~ cat > phrases.txt // um ponto de apoio e uma lavanca e eu movo o mundo..
+~ grep -v fox phrases.txt 
 
-7.	Dentro de unix_tests, crie um novo diretório chamado backup2.
+7.Conte o número de palavras do arquivo phrases.txt.
 comando:
-~ mkdir backup2
+~ wc -w phrases.txt // 30 
 
-8.	Mova o arquivo trybe_backup.txt da pasta backup para a pasta backup2.
+8.Conte o número de linhas do arquivo phrases.txt.
 comando:
-~ mv backup/trybe_backup.txt backup2
+~ wc -l phrases.txt // 2
 
-9.	Apague a pasta backup.
+Parte III
+9.Crie os arquivos empty.tbt e empty.pdf.
 comando:
-~ rmdir backup
+~ touch empty.tbt empty.pdf
 
-10.	Renomeie a pasta backup2 para backup.
+10.Liste todos os arquivos do diretório unix_tests_search.
 comando:
-~ mv backup2 backup
+~ ls -a
 
-11.	Veja qual é o path completo do diretório atual e liste todos os arquivos dentro dele.
+11.Liste todos os arquivos que terminem com txt.
 comando:
-~ pwd
-~ ls
+~ ls *txt
 
-12.	Apague o diretório backup.
+12.Liste todos os arquivos que terminem com tbt ou txt.
 comando:
-~ rm -rd backup
+~ ls *t?t
 
-13.	Limpe o terminal.
+13.Acesse o manual do comando ls.
 comando:
-~ clear
-
-14. Mostre na tela as 5 primeiras skills do arquivo skills.txt.
-comando:
-~ head -n 5 skills.txt
-
-15. Mostre na tela as 4 últimas skills do arquivo skills.txt.
-comando:
-~ tail -n 4 skills.txt
-
-16. Apague todos os arquivos que terminam em .txt.comando:
-~ rm *.txt
+~ man ls
