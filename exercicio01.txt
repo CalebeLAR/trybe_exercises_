@@ -17,6 +17,7 @@ comando:
 5.Crie um arquivo chamado README.md;
 comando: 
 ~ echo #exercício seção01 dia02 > README.md
+
 6.Adicione o arquivo novo em staging e realize um commit, como em git add . e git commit -m "Descreva a alteração realizada";
 comando: 
 ~ git add .
