@@ -1,30 +1,47 @@
-1.	Acesse a branch main e crie uma branch nova chamada atualiza-readme.
+1.	Acesse a branch main e crie uma branch nova chamada adiciona-readme.
 comando:
-~ 
-2.	Acesse a branch atualiza-readme e crie um arquivo chamado infos.txt.
+~ git checkout adiciona-readme
+
+2.	Acesse a branch adiciona-readme e crie um arquivo chamado infos.txt.
 comando:
-~ 
+~ touch infos.txt
+~ fortune > infos.txt // The only people for me are the mad ones...
+
 3.	Adicione as alterações em staging e realize um commit.
 comando:
-~ 
+~ git add infos.txt
+~ git commit -m 'fortune infos.txt'
+
 4.Adicione seu nome e sobrenome ao arquivo infos.txt.
 comando:
-~ 
+~ cat >> infos.txt 
+~ // 2X ENTER bruce wayne
+~ // ctrl + D
+
 5.Adicione novamente as alterações em staging e realize um commit.
 comando:
-~ 
-6.Crie uma branch nova a partir da branch atualiza-readme. A nova branch deve se chamar adiciona-infos.
+~ git add .
+~ git commit -m 'infos.txt'
+
+6.Crie uma branch nova a partir da branch adiciona-readme. A nova branch deve se chamar adiciona-infos.
 comando:
-~ 
+~ git checkout -b adiciona-infos
+
 7.Acesse a branch adiciona-infos e utilize sua criatividade para escrever o passo a passo de como o versionamento funciona no README.md. Por exemplo: “O primeiro passo é ter uma pasta versionada e criar um estrutura inicial, e fazemos isso utilizando o comando git init. O segundo passo é criar uma branch nova com o comando git branch nome-da-branch ou git checkout -b nome-da-branch…” Você pode, também, utilizar esse momento para registrar, em forma de perguntas e respostas, as dúvidas que ainda tiver sobre versionamento.
 comando:
-~ 
+~ cat >> infos.txt 
+~ // ENTER criar ramo. modificar arquivo. mergiar para ramo principal
+
 8.Adicione as alterações em staging e realize o commit.
 comando:
-~ 
-9.Volte para a branch atualiza-readme e realize o merge das alterações feitas na branch adiciona-infos.
+~ git add .
+~ git commit -m 'infos.txt'
+
+9.Volte para a branch adiciona-readme e realize o merge das alterações feitas na branch adiciona-infos.
 comando:
-~ 
+~ git checkout adiciona-readme 
+~ git merge adiciona-infos
+
 10.	Retorne para a branch main e realize o merge das alterações.
 comando:
-~ 
+~ git checkout main 
