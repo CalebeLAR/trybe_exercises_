@@ -4,7 +4,10 @@ No curso da trybe a gente divide os exercícios do por módulo, seção e dia.
 Cada branch de exercícios está nomeada com o modulo, seção e dia daquele exercício. 
 
 * modulo de fundamentos:
-- [ ] exercícios da seção01: Unix, Shell e Git :rotating_light:
+- seção01: Unix, Shell e Git :rotating_light:
+  - [x] exercicios dia 01: Unix & Shell
+  - [x] exercicios dia 02: Git - O que é e para que serve
+  - [x] exercicios dia 03: Git & GitHub - Entendendo os comandos
 - [ ] exercícios da seção02: Introdução à HTML & CSS:rotating_light:
 - [ ] exercícios da seção03: Introdução à JavaScript :rotating_light:
 - [ ] exercícios da seção04: JavaScript: DOM, Eventos e Web Storage :rotating_light:
