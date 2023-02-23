@@ -8,7 +8,14 @@ Cada branch de exercícios está nomeada com o modulo, seção e dia daquele exe
   - [x] exercicios dia 01: Unix & Shell
   - [x] exercicios dia 02: Git - O que é e para que serve
   - [x] exercicios dia 03: Git & GitHub - Entendendo os comandos
-- [ ] exercícios da seção02: Introdução à HTML & CSS:rotating_light:
+
+- seção02: Introdução à HTML & CSS
+  - [ ] exercicios dia 01: HTML & CSS - Estruturas de página
+  - [ ] exercicios dia 02: HTML & CSS - Primeiros passos em CSS
+  - [ ] exercicios dia 03: HTML & CSS - Seletores e posicionamento
+  - [ ] exercicios dia 04: HTML Semântico
+  - [ ] exercicios dia 05: Projeto - Lessons Learned
+
 - [ ] exercícios da seção03: Introdução à JavaScript :rotating_light:
 - [ ] exercícios da seção04: JavaScript: DOM, Eventos e Web Storage :rotating_light:
 - [ ] exercícios da seção05: HTML e CSS: Forms, Flexbox e Responsivo :rotating_light:
