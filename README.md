@@ -26,13 +26,14 @@ Cada branch de exercícios está nomeada com o modulo, seção e dia daquele exe
 
 ## modulo de back-end em desenvolvimento :construction:
 
-- seção04: Introdução ao desenvolvimento Web com Node.js
-- [ ] exercicios dia 01: Node.js: Runtime Assíncrono
-- [ ] exercicios dia 02: Node.js: API REST com Express
-- [ ] exercicios dia 03: Node.js: Testes de Integração
-- [ ] exercicios dia 04: Node.js: Express e Middlewares
-- [ ] exercicios dia 05: Node.js: Express e MySQL
+- seção06: Node.js ORM e Autenticação
+  - [x] exercicios dia 01: ORM - Interface da aplicação com o banco de dados
+  - [ ] exercicios dia 02: ORM - Associations 1:1 e 1:N
+  - [ ] exercicios dia 03: ORM - Associations N:N e Transactions
+  - [ ] exercicios dia 04: JWT - (JSON Web Token)
+  - [ ] exercicios dia 05: Projeto - API de Blogs
+
+## modulo de front-end em desenvolvimento :construction:
 
 ## modulo de ciência da computação em desenvolvimento :construction:
 
-## modulo de front-end em desenvolvimento :construction:
