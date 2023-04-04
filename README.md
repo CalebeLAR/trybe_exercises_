@@ -14,7 +14,7 @@ Cada branch de exercícios está nomeada com o modulo, seção e dia daquele exe
 - seção02: Introdução à HTML & CSS
   - [x] exercicios dia 01: HTML & CSS - Estruturas de página
   - [x] exercicios dia 02: HTML & CSS - Primeiros passos em CSS
-  - [ ] exercicios dia 03: HTML & CSS - Seletores e posicionamento
+  - [x] exercicios dia 03: HTML & CSS - Seletores e posicionamento
   - [ ] exercicios dia 04: HTML Semântico
   - [ ] exercicios dia 05: Projeto - Lessons Learned
 
