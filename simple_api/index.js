@@ -1,10 +1,12 @@
 const express = require('express');
-require('dotenv').config();
+const BooksController = require('./src/controllers/book.controller'); 
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 console.log(PORT)
 
 app.use(express.json());
+
+app.get('/books', BooksController.getAll)
 
 app.listen(PORT, () => console.log(`Ouvindo na porta ${PORT}!`));
