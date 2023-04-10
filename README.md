@@ -1,10 +1,10 @@
 ## Introdução - Node.js: ORM e Autenticação
 * O que é ORM
 * Mapeamentos
-- [ ] Data Mapper
-- [ ] Active Record
+- [x] Data Mapper
+- [x] Active Record
 * Sequelize
-- [ ]  Model
-- [ ] Migrations
-- [ ] Seeders
-- [ ] Operações
+- [x]  Model
+- [x] Migrations
+- [x] Seeders
+- [x] Operações
