@@ -1,0 +1,3 @@
+[submodule "booksAPI"]
+	path = booksAPI
+	url = git@github.com:CalebeLAR/booksAPI.git
