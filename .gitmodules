@@ -1,0 +1,3 @@
+[submodule "secao04-introducao-ao-desenvolvimento-web-com-node-js/soccer-team-manager"]
+	path = exercise-sequelize-associations-11-1n
+	url = git@github.com:CalebeLAR/exercise-sequelize-associations-11-1n.git
