@@ -28,8 +28,8 @@ Cada branch de exercícios está nomeada com o modulo, seção e dia daquele exe
 
 - seção06: Node.js ORM e Autenticação
   - [x] exercicios dia 01: ORM - Interface da aplicação com o banco de dados
-  - [ ] exercicios dia 02: ORM - Associations 1:1 e 1:N
-  - [ ] exercicios dia 03: ORM - Associations N:N e Transactions
+  - [x] exercicios dia 02: ORM - Associations 1:1 e 1:N
+  - [x] exercicios dia 03: ORM - Associations N:N e Transactions
   - [ ] exercicios dia 04: JWT - (JSON Web Token)
   - [ ] exercicios dia 05: Projeto - API de Blogs
 
