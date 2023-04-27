@@ -1,0 +1,3 @@
+[submodule "exercise-sequelize-associations"]
+	path = exercise-sequelize-associations
+	url = git@github.com:CalebeLAR/exercise-sequelize-associations.git
