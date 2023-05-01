@@ -1,20 +1,11 @@
-const jwt = require('')
-
 const createLogin = async (req, res) => {
-  const { username, password } = req.body;
+  const user = req.body;
 
-  if(!username || !password) return res.staus(400).json({message: 'senha ou usuário inválido'}) 
-
-  // const user = await loginService.createLogin();
-  const user = { name: 'pedroCadastrado', pass: 'senhaPedro'};
-
-  const 
-
-  const response = await loginService.postLogin();
-
+  const response = await loginService.createLogin(user);
+  
   return res.status(200).json(response)
 }
 
 module.exports = {
-
+  createLogin,
 }
