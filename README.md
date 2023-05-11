@@ -33,7 +33,9 @@ Cada branch de exercícios está nomeada com o modulo, seção e dia daquele exe
   - [x] exercicios dia 04: JWT - (JSON Web Token)
   - [x] exercicios dia 05: Projeto - API de Blogs
 
+- seção08: Introdução a TypeScript
+  - [ ] exercicios dia 01: Introdução ao TypeScript
+  - [x] exercicios dia 02: Tipagem Estática e Generics
 ## modulo de front-end em desenvolvimento :construction:
-
 ## modulo de ciência da computação em desenvolvimento :construction:
 
