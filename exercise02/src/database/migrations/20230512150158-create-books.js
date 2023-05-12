@@ -20,7 +20,9 @@ module.exports = {
         references: {
           model: 'authors',
           key: 'id'
-        }
+        },
+        onDelete: 'CASCADE',
+        onUpdate: 'CASCADE',
       },
       genreId: {
         field: 'genre_id',
@@ -29,7 +31,9 @@ module.exports = {
         references: {
           model: 'genres',
           key: 'id'
-        }
+        },
+        onDelete: 'CASCADE',
+        onUpdate: 'CASCADE',
       },
     });
   },
