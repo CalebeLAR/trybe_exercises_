@@ -24,7 +24,5 @@ Author.init({
     timestamps: false,
   });
 
-Author.hasMany(Book, { foreignKey: 'authorId', as: 'author' })
-
 export default Author;
 

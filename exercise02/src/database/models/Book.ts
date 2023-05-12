@@ -46,5 +46,6 @@ Book.init({
 });
 
 Book.belongsTo(Author, { foreignKey: 'authorId', as: 'author' });
+Author.hasMany(Book, { foreignKey: 'authorId', as: 'author' })
 
 export default Book;
