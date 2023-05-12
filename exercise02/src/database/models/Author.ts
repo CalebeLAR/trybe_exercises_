@@ -1,12 +1,13 @@
 import { Model, INTEGER, STRING } from 'sequelize';
+import Book from './Book';
 import db from '.';
 
-class Authors extends Model {
+class Author extends Model {
   declare id: number;
   declare name: string;
 };
 
-Authors.init({
+Author.init({
     id: {
       primaryKey: true,
       allowNull: false,
@@ -19,9 +20,11 @@ Authors.init({
     }
   }, {
     sequelize: db,
-    modelName: 'Books',
+    modelName: 'authors',
     timestamps: false,
   });
 
-export default Authors;
+Author.hasMany(Book, { foreignKey: 'authorId', as: 'author' })
+
+export default Author;
 
