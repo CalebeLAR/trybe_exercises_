@@ -36,6 +36,7 @@ Cada branch de exercícios está nomeada com o modulo, seção e dia daquele exe
 - seção08: Introdução a TypeScript
   - [ ] exercicios dia 01: Introdução ao TypeScript
   - [x] exercicios dia 02: Tipagem Estática e Generics
+  - [x] exercicios dia 03: Express com TypeScript
 ## modulo de front-end em desenvolvimento :construction:
 ## modulo de ciência da computação em desenvolvimento :construction:
 
