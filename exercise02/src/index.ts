@@ -6,15 +6,16 @@ import Book from './database/models/Book';
   const data = await Author.findAll({
     include: {
       model: Book,
+      // as: 'books',
       attributes: [],
     },
     attributes: [
       ['name', 'author'],
-      [sequelize.fn('COUNT', sequelize.col('books.id')), 'totalBooks'],
     ],
     group: 'authors.name',
-    order: [['totalBooks', 'DESC']],
+    order: sequelize.fn('COUNT', sequelize.col('books.id')),
     raw: true,
+    
   });
 
   console.log(data);
