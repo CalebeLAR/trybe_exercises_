@@ -1,12 +1,11 @@
 import express from 'express';
-import { Request, Response, NextFunction } from 'express';
+import usersRouter from './routes/users.routes';
 
 const app = express()
 
 app.use(express.json());
 
-app.use('/users', (req, res) => {
-  res.status(200).json({message: 'ta dando!'})
-})
+app.use(usersRouter);
+
 export default app;
 
