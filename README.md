@@ -1,42 +1,23 @@
-# trybe_exercises
+# typeScript e express
 
-No curso da trybe a gente divide os exercícios do por módulo, seção e dia.
+## Objetivos:
+  * Criar um CRUD completo de pessoas usuárias de uma aplicação.
+  * Permitir que pessoas usuárias dessa aplicação façam login utilizando suas credenciais.
+  * Utilize o jwt para que um usuário somente possa deletar ou atualizar sua própria conta.
+  * Utilize a tabela Users para realizar a atividade.
 
-Cada branch de exercícios está nomeada com o modulo, seção e dia daquele exercício.
+## Rotas:
+  * Uma rota que lista todos as pessoas usuárias da aplicação;
+  * Uma rota que lista uma única pessoa usuária a partir de seu id;
+  * Uma rota que permite cadastrar uma nova pessoa usuária da aplicação;
+  * Uma rota que permite editar o registro de uma única pessoa usuária cadastrada por meio de* seu id;
+  * Uma rota que permite deletar uma pessoa usuária da aplicação a partir de seu id.
 
-## modulo de fundamentos :construction:
-
-- seção01: Unix, Shell e Git
-  - [x] exercicios dia 01: Unix & Shell
-  - [x] exercicios dia 02: Git - O que é e para que serve
-  - [x] exercicios dia 03: Git & GitHub - Entendendo os comandos
-
-- seção02: Introdução à HTML & CSS
-  - [x] exercicios dia 01: HTML & CSS - Estruturas de página
-  - [x] exercicios dia 02: HTML & CSS - Primeiros passos em CSS
-  - [x] exercicios dia 03: HTML & CSS - Seletores e posicionamento
-  - [ ] exercicios dia 04: HTML Semântico
-  - [ ] exercicios dia 05: Projeto - Lessons Learned
-
-- [ ] exercícios da seção03: Introdução à JavaScript :rotating_light:
-- [ ] exercícios da seção04: JavaScript: DOM, Eventos e Web Storage :rotating_light:
-- [ ] exercícios da seção05: HTML e CSS: Forms, Flexbox e Responsivo :rotating_light:
-- [ ] exercícios da seção06: Introdução à JavaScript ES6 e Testes Unitários :rotating_light:
-- [ ] exercícios da seção07: Higher Order Functions do JavaScript ES6 :rotating_light:
-
-## modulo de back-end em desenvolvimento :construction:
-
-- seção06: Node.js ORM e Autenticação
-  - [x] exercicios dia 01: ORM - Interface da aplicação com o banco de dados
-  - [x] exercicios dia 02: ORM - Associations 1:1 e 1:N
-  - [x] exercicios dia 03: ORM - Associations N:N e Transactions
-  - [x] exercicios dia 04: JWT - (JSON Web Token)
-  - [x] exercicios dia 05: Projeto - API de Blogs
-
-- seção08: Introdução a TypeScript
-  - [ ] exercicios dia 01: Introdução ao TypeScript
-  - [x] exercicios dia 02: Tipagem Estática e Generics
-  - [x] exercicios dia 03: Express com TypeScript
-## modulo de front-end em desenvolvimento :construction:
-## modulo de ciência da computação em desenvolvimento :construction:
-
+## Regras:
+  * Uma pessoa usuária da aplicação deve possuir as propriedades id, nome, email e senha;
+  * Nenhuma propriedade de uma pessoa usuária da aplicação pode ser nula ou vazia;
+  * O id deve ser gerado automaticamente;
+  * A senha deve possuir no mínimo 6 e no máximo 12 caracteres;
+  * O nome deve possuir pelo menos 3 caracteres;
+  * O email deve possuir um formato de email válido (email@email.com);
+  * Ao criar um novo user, o email não pode já estar cadastrado.
