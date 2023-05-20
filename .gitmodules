@@ -1,0 +1,3 @@
+[submodule "sd-027-a-exercise-trybe-crafts"]
+	path = ./sd-027-a-exercise-trybe-crafts
+	url = git@github.com:tryber/sd-027-a-exercise-trybe-crafts.git
