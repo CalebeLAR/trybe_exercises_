@@ -20,6 +20,8 @@ app.use(
 
 app.get('/ping', controllers.ping);
 app.post('/login', controllers.login);
+app.get('/users/me', controllers.userMe);
+app.get('/top-secret', controllers.topSecret);
 
 app.use(middlewares.error);
 
