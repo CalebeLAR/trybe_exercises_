@@ -37,6 +37,11 @@ Cada branch de exercícios está nomeada com o modulo, seção e dia daquele exe
   - [x] exercicios dia 01: Introdução ao TypeScript
   - [x] exercicios dia 02: Tipagem Estática e Generics
   - [x] exercicios dia 03: Express com TypeScript
+
+- seção09: Programação Orientada a Objetos (POO) e SOLID
+  - [x] exercicios dia 01: Introdução à Orientação a Objetos
+  - [x] exercicios dia 01: Herança e Composição
+
 ## modulo de front-end em desenvolvimento :construction:
 ## modulo de ciência da computação em desenvolvimento :construction:
 
