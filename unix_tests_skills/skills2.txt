@@ -1,0 +1,10 @@
+Internet
+Unix
+Bash
+javaScript 
+python
+typeScript
+react
+node.js
+redux
+
